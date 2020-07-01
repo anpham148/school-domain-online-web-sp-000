@@ -12,10 +12,10 @@ class School
   end
 
   def grade(grade)
-    @a = @roster[grade]
+    @roster[grade]
   end
 
   def sort
-    @a.sort!
+    @roster[grade].sort!
   end
 end
